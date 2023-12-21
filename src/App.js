@@ -1,24 +1,65 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Link, Routes, Route } from 'react-router-dom';
+
+
+function Erqqq() {
+	return <span> Something is off </span>
+}
+
+
+function Signin() {
+	return (<> In <br/>
+	
+<Link to="/"> Home </Link>	  
+
+		
+	
+	
+	
+	 </>)
+}
+
+
+function Signout() {
+	return (<> Out <br/>
+	
+<Link to="/"> Home </Link>	  
+
+		
+	
+	
+	
+	 </>)
+}
+
+
+
+function Main() {
+	return (<> 
+	
+	Main 
+	
+<br/>	
+<br/>	
+<br/>		
+	
+<Link to="/sin"> Sign in </Link>	  <Link to="/sup"> Sign up </Link>
+	
+	</>)
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+<Routes>
+	<Route path="/" element={<Main />} />
+	<Route path="/sin" element={<Signin />} />
+	<Route path="/sup" element={<Signout />} />
+	<Route path="*" element={<Erqqq />} />
+</Routes>
+
+
   );
 }
 
