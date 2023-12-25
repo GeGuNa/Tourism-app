@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
+import { Navigation } from './components/nav/nav.js';
+import { Footer } from './components/footer/footer.js';
 
 
 function Erqqq() {
@@ -36,14 +38,20 @@ function Signout() {
 
 function Main() {
 	return (<> 
+
+<Navigation/>
 	
-	Main 
+<br/>	Main 
 	
 <br/>	
 <br/>	
 <br/>		
 	
 <Link to="/sin"> Sign in </Link>	  <Link to="/sup"> Sign up </Link>
+<br/>	
+	
+	
+<Footer/>	
 	
 	</>)
 }
