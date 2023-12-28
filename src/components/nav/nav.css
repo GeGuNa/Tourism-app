@@ -1,0 +1,23 @@
+.HeaderNavigation {
+	height:50px;
+	display:flex;
+	justify-content:space-between;
+	padding-left:15px;
+	padding-right:15px;
+	width:100%;
+	border-bottom:1px solid #ddd;
+	align-items:center;
+}
+
+
+.LeftHdr1 {
+	padding-left:20px;
+}
+
+
+
+.RightHdr1 {
+	padding-right:30px;
+	display:flex;
+	gap:15px;
+}

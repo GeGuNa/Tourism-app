@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/nav/nav.js';
 import { Footer } from './components/footer/footer.js';
-
+import "./css/App.css";
 
 function Erqqq() {
 	return <span> Something is off </span>
@@ -41,7 +41,12 @@ function Main() {
 
 <Navigation/>
 	
-<br/>	Main 
+	
+<img src="/pics/beach-1236581_1280.jpg" className="pMainImg" />
+		
+	
+	
+	
 	
 <br/>	
 <br/>	

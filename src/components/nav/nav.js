@@ -1,11 +1,32 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './nav.css';
 
 export function Navigation() {
 	return (<>
 	
-	Navigation
+	<div className="HeaderNavigation">
+	
+		<div> 
+			<div className="LeftHdr1"> <div className="KTtl1">Go Trip</div> </div>
+		 </div>
+		 
+		<div> 
+		
+				<div className="RightHdr1"> 
+					<div><Link to="/"> Home </Link></div>
+					<div><Link to="/"> Tours </Link></div>
+					<div><Link to="/"> Package </Link></div>
+					<div><Link to="/"> Blog </Link></div>
+					<div><Link to="/"> About us </Link></div>
+					<div><Link to="/"> Contact </Link></div>
+				</div>
+		
+		</div>	
+	
+	</div>
+	
+	
 	
 	
 	
