@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding:0;
   width:100%;
-  font-family: Arial, Helvetica;
+  font-family: 'FiragoRegular', Arial, Helvetica;
   font-size: 16px;
   overflow-x:hidden;
 }
@@ -33,6 +33,12 @@ font-family: 'Satisfy';
 src: url("../fonts/Satisfy-Regular.ttf");
 }
 
+
+@font-face {
+font-family: 'FiragoRegular';
+src: url("../fonts/FiraGO/Roman/FiraGO-Regular.woff") format('woff')
+url("../fonts/FiraGO/Roman/FiraGO-Regular.woff2") format('woff2');
+}
 
 
 

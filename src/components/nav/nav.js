@@ -16,9 +16,9 @@ export function Navigation() {
 				<div className="RightHdr1"> 
 					<div><Link to="/"> Home </Link></div>
 					<div><Link to="/"> Tours </Link></div>
-					<div><Link to="/"> Package </Link></div>
+					<div><Link to="/"> Packages </Link></div>
 					<div><Link to="/"> Blog </Link></div>
-					<div><Link to="/"> About us </Link></div>
+					<div><Link to="/"> About </Link></div>
 					<div><Link to="/"> Contact </Link></div>
 				</div>
 		

@@ -5,8 +5,15 @@
 	padding-left:15px;
 	padding-right:15px;
 	width:100%;
-	border-bottom:1px solid #ddd;
+	/*border-bottom:1px solid #ddd;*/
 	align-items:center;
+	background: #0F172B;
+    color: #FEA116 !important;
+}
+
+:root {
+--cl-clrwh: #fff;
+--cl-clrmn: #FEA116;
 }
 
 
@@ -21,3 +28,12 @@
 	display:flex;
 	gap:15px;
 }
+
+.RightHdr1 div a {
+	color: var(--cl-clrwh) !important;
+}
+
+.RightHdr1 div a:hover {
+	color: var(--cl-clrmn) !important;
+}
+
