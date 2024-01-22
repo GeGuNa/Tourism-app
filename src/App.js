@@ -41,9 +41,28 @@ function Main() {
 
 <Navigation/>
 	
-	
-<img src="/pics/beach-1236581_1280.jpg" className="pMainImg" />
+<div className="kz_w1">	
+
+
+	<div className="kz_w1q1">	
+
+				<div className="kz_w1q13">	
+						Discover A Brand Luxurious and Best places 
+				</div>
+
+	<div className="kz_w1q13">	
+						<button className="btn">Check out the places</button>  
+						<button className="btn2">Book a new tour</button>
+				</div>
+
+
+	</div>
+
+
+
+	<img src="/pics/beach-1236581_1280.jpg" className="pMainImg" />
 		
+</div>
 	
 	
 	
@@ -62,7 +81,7 @@ function Main() {
 }
 
 
-function App() {
+export default function App() {
   return (
   
 <Routes>
@@ -76,4 +95,3 @@ function App() {
   );
 }
 
-export default App;
