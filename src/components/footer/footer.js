@@ -63,7 +63,21 @@ export function Footer() {
 	</div>
 	
 	
-	<div></div>	
+	<div> 
+	
+		<p className="p">Our Team</p> 
+	
+			<div className="KZl1">
+				<a href="">Mariam megrelishvili</a>
+				<a href="">Koka jafaridze</a>
+				<a href="">Mary koberidze</a>
+				<a href="">Xz unknown</a>
+				<a href="">John snow</a>
+			</div>
+		
+	
+	
+	</div>	
 	
 	
 	</div>	

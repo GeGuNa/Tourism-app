@@ -59,9 +59,20 @@ color: #fff !important;
 }
 
 .footerWlinks .KZl1 a {
-letter-spacing: 0.08rem;
+/*letter-spacing: 0.08rem;*/
+letter-spacing: 0.02rem;
 font-size:18px;
 }
+
+.footerWlinks .KZl1 a::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+
+
 
 .KZl1 {
 row-gap: 5px;
