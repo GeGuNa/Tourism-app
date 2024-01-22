@@ -5,7 +5,21 @@ import './footer.css';
 export function Footer() {
 	return (<>
 	
-	Footer
+	<div className="footer">
+	
+	<div> © By Phantom</div>
+	
+			<div>
+				<div className="ftr1">
+					<a href="">Home</a>
+					<a href="">About</a>
+					<a href="">Help</a>
+					<a href="">Contact</a>	
+				</div>	
+			</div>
+	
+	
+	</div>
 	
 	
 	

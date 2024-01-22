@@ -1,0 +1,31 @@
+:root {
+--cl-clrwh: #fff;
+--cl-clrmn: #FEA116;
+}
+
+
+.footer {
+background: #0F172B !important;
+width:100%;
+display:flex;
+justify-content: space-around;
+color:#fff;
+height:80px;
+align-items:center;
+}
+
+
+.footer a {
+color: #fff !important;
+}
+
+.footer a:hover {
+	color: var(--cl-clrmn) !important;
+}
+
+
+
+.ftr1 {
+	display:flex;
+	gap:10px;
+}
