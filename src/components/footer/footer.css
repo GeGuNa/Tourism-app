@@ -4,16 +4,39 @@
 }
 
 
+.Divider::after {
+    display: block;
+    content: "";
+    background: #504f4f;
+    height: 1px;
+    width: 99%;
+}
+
 .footer {
 background: #0F172B !important;
 width:100%;
 display:flex;
-justify-content: space-around;
+justify-content: space-between;
 color:#fff;
 height:80px;
 align-items:center;
+overflow: hidden;
 }
 
+.footerWlinks {
+	background: #0F172B !important;
+	width:100%;
+	display:flex;
+	justify-content: space-around;
+	color:#fff;
+	height:200px;
+	align-items:center;
+	padding-bottom: 15px;
+}
+
+.ftr1 a i {
+color:#fff !important;
+}
 
 .footer a {
 color: #fff !important;
@@ -28,4 +51,37 @@ color: #fff !important;
 .ftr1 {
 	display:flex;
 	gap:10px;
+}
+
+
+.footerWlinks .KZl1 a:hover {
+
+}
+
+.footerWlinks .KZl1 a {
+letter-spacing: 0.08rem;
+font-size:18px;
+}
+
+.KZl1 {
+row-gap: 5px;
+transition: .3s;
+display:flex;
+flex-direction: column;
+}
+
+
+.KZl1 a {
+	color: #fff !important;
+}
+
+
+.KZl1 a:hover {
+	color: var(--cl-clrmn) !important;
+}
+
+
+.p {
+	font-size: 1.5rem;
+    color: var(--cl-clrmn) !important;
 }
