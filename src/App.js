@@ -88,7 +88,7 @@ function Main() {
 				
 				<div className="pdng1"> 
 					  <div>
-						<h2 className="pcn1tr">Italy Milan</h2>
+						<h2 className="pcn1tr">Italy,  Milan</h2>
 					  </div>
 					 
 				 
@@ -106,6 +106,21 @@ function Main() {
 						 </ul>
 					 
 					  </div>
+					  
+					  
+						 <div className="pcn1tr"> 
+					 
+							<div> 
+								<b>Starting at</b> <span className="qgre1">  $399 </span>
+							</div>
+						 
+							 <div>
+								<button className="btnNormalCase">Details</button>
+							 </div>
+					 
+					 </div>   
+					  
+					  
 				 
 				</div>	 
 				 
@@ -129,7 +144,7 @@ function Main() {
 				
 				<div className="pdng1"> 
 					  <div>
-						<h2 className="pcn1tr">Irael, Jerusalem</h2>
+						<h2 className="pcn1tr">Israel, Jerusalem</h2>
 					  </div>
 					 
 				 
@@ -147,6 +162,20 @@ function Main() {
 						 </ul>
 					 
 					  </div>
+					  
+					  
+					 <div className="pcn1tr"> 
+					 
+							<div> 
+								<b>Starting at</b> <span className="qgre1">  $199 </span>
+							</div>
+						 
+							 <div>
+								<button className="btnNormalCase">Details</button>
+							 </div>
+					 
+					 </div> 
+					  
 				 
 				</div>	 
 				 
@@ -192,6 +221,22 @@ function Main() {
 						 </ul>
 					 
 					  </div>
+					  
+					  
+						 <div className="pcn1tr"> 
+					 
+							<div> 
+								<b>Starting at</b> <span className="qgre1">  $299 </span>
+							</div>
+						 
+							 <div>
+								<button className="btnNormalCase">Details</button>
+							 </div>
+					 
+					 </div>   
+					  
+					  
+					  
 				 
 				</div>	 
 				 
