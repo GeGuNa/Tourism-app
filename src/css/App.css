@@ -1,3 +1,8 @@
+
+:root {
+--cgreen: #14bf98;
+}
+
 body {
   margin: 0;
   padding:0;
@@ -92,8 +97,8 @@ display:block;
 	color: #FFFFFF;
     border: none;
     outline: none;
-    background: #feb445;
-	padding: 15px 18px;
+    background: /*#feb445*/ var(--cgreen);
+	padding: 16px 18px;
     margin-top: 20px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -108,7 +113,7 @@ display:block;
     border: none;
     outline: none;
     background: #fff;
-	padding: 15px 18px;
+	padding: 16px 18px;
     margin-top: 11px;
     font-size: 1.2rem;
     font-weight: 500;
@@ -131,7 +136,7 @@ color: #787976;
 .kwTestimonals {
 width:100%;
 display:flex;
-gap:20px;
+gap:40px;
 justify-content:center;
 overflow:hidden;
 word-break:break-all;
@@ -155,4 +160,9 @@ word-break:break-all;
 	display: flex;
     row-gap: 10px;
     flex-direction: column;
+}
+
+
+.klrowSizes div img {
+border-radius:50%;
 }
