@@ -115,3 +115,44 @@ display:block;
     text-transform: uppercase;
     border-radius: 4px;
 }
+
+.pcnt1 {
+	width: 80%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+span  {
+color: #787976;
+}
+
+
+.kwTestimonals {
+width:100%;
+display:flex;
+gap:20px;
+justify-content:center;
+overflow:hidden;
+word-break:break-all;
+}
+
+
+.kwTestimonals > div {
+	width:20%;
+	flex-basis:20%;
+}
+
+
+.klz1 {
+    margin-bottom: 19px;
+    display: block;
+    color: #787976;
+    font-size: 20px;
+}
+
+.klrowSizes {
+	display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}

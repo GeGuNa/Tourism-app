@@ -65,11 +65,90 @@ function Main() {
 </div>
 
 
+
 	
-<div className="">
+<Customers>
+
+	<div> 
+	
+	
+		<div className="klrowSizes">
+			<div>
+				<img src="/testimonals/testimonial-1.jpg" />
+			</div>
+			
+			<div> 
+			
+				<span> Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor 
+				</span> 
+			
+			</div>
+			
+			<div> 
+				<b> Mary koberidze </b> 
+			</div>
+				 </div>
+			
+			
+	 </div>
+	
+	
+	
+	
+	<div> 
+	
+		<div className="klrowSizes">
+			<div>
+				<img src="/testimonals/testimonial-2.jpg" />
+			</div>
+			
+			<div> 
+			
+				<span> Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor 
+				</span> 
+			
+			</div>
+			
+			<div> 
+				<b> Diana grace </b> 
+			</div>
+				 </div>
+			
+			
+			
+	 </div>
+	 
+	 
+	 
+	 
+	 
+	 	<div> 
+	 	
+	 	<div className="klrowSizes">
+					<div>
+						<img src="/testimonals/testimonial-3.jpg" />
+					</div>
+					
+					<div> 
+					
+						<span> 
+							Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor  Lorem ipsum dolor Lorem ipsum dolor  Lorem ipsum dolor 
+						</span> 
+					
+					</div>
+					
+					<div> <b> John snow </b> </div>
+			 </div>	
+			
+			
+	 </div>
+	 
+	 
+
+</Customers>
 
 
-</div>	
+
 	
 	
 <br/>	
@@ -81,6 +160,30 @@ function Main() {
 	
 	
 <Footer/>	
+	
+	</>)
+}
+
+
+function  Customers({ children }) {
+	return (<>
+	
+	<div className="pcnt1">
+
+
+<h2>Customer Testimonials</h2>
+
+<div className="klz1"> Our clients are our partners and we can not imagine a better future for our company</div>
+
+
+<div className="kwTestimonals">
+	{children}
+</div>
+
+
+</div>	
+
+	
 	
 	</>)
 }
