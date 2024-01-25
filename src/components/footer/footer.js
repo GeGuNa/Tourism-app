@@ -90,15 +90,21 @@ export function Footer() {
 	
 	<div className="footer">
 	
-	<div> © Designed by Phantom</div>
+	<div> 
+		<div className="plq1"> © Designed by Phantom </div> 
+	</div>
 	
 			<div>
+			
+			<div className="plq2">
 				<div className="ftr1">
 					<a href="">Home</a>
 					<a href="">About</a>
 					<a href="">Help</a>
 					<a href="">Contact</a>	
 				</div>	
+			 </div> 	
+				
 			</div>
 	
 	

@@ -96,3 +96,27 @@ flex-direction: column;
 	font-size: 1.5rem;
     color: var(--cl-clrmn) !important;
 }
+
+
+
+
+
+.footerChild {
+    background: #0F172B !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    height: 80px;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.plq1 {
+padding-left:10px;
+}
+
+.plq2 {
+padding-right:10px;
+}

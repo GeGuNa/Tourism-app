@@ -1,5 +1,5 @@
 .HeaderNavigation {
-	height:50px;
+	height:70px;
 	display:flex;
 	justify-content:space-between;
 	padding-left:15px;
@@ -31,6 +31,7 @@
 
 .RightHdr1 div a {
 	color: var(--cl-clrwh) !important;
+	    font-size: 18px;
 }
 
 .RightHdr1 div a:hover {
