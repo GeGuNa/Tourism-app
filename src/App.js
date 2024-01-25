@@ -2,7 +2,15 @@ import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/nav/nav.js';
 import { Footer } from './components/footer/footer.js';
+import { PHotlist, PHot } from './components/TouristPhs.js';
+
+
+
+
 import "./css/App.css";
+
+
+
 
 function Erqqq() {
 	return <span> Something is off </span>
@@ -370,7 +378,64 @@ function Main() {
 	
 <br/>	
 <br/>	
-<br/>		
+<br/>	
+
+
+
+
+<div className="kz1_ourTours">
+
+	<div className="center">Photos</div>
+
+
+	<div className="center">
+		<h1>Photos  taken by our customers</h1>
+	</div>
+
+	<div className="kflxcenter">
+		<button className="btnzNormalCase"> Tbilisi </button>  
+		<button className="btnzNormalCase"> Jerusalem </button>
+		<button className="btnzNormalCase"> Milan </button>
+		<button className="btnzNormalCase"> Rome </button>
+		<button className="btnzNormalCase"> Batumi </button>
+	</div>
+
+<div>
+
+
+<PHotlist>
+
+	<PHot Where={`Tbilisi, Georgia`} Pic={`/places/georgia.jpeg`}/>
+	<PHot Where={`Jerusalem, Israel`} Pic={`/places/jerusalem.jpeg`}/>
+	<PHot Where={`Milan, Italy`} Pic={`/places/licensed-image.jpeg`}/>
+	<PHot Where={`Milan, Italy`} Pic={`/places/licensed-image.jpeg`}/>
+	<PHot Where={`Tbilisi, Georgia`} Pic={`/places/georgia.jpeg`}/>
+	<PHot Where={`Jerusalem, Israel`} Pic={`/places/jerusalem.jpeg`}/>
+	<PHot Where={`Milan, Italy`} Pic={`/places/licensed-image.jpeg`}/>
+	<PHot Where={`Milan, Italy`} Pic={`/places/licensed-image.jpeg`}/>
+	<PHot Where={`Tbilisi, Georgia`} Pic={`/places/georgia.jpeg`}/>
+	<PHot Where={`Jerusalem, Israel`} Pic={`/places/jerusalem.jpeg`}/>
+	<PHot Where={`Milan, Italy`} Pic={`/places/licensed-image.jpeg`}/>
+	<PHot Where={`Tbilisi, Georgia`} Pic={`/places/georgia.jpeg`}/>
+
+
+</PHotlist>
+
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+	
 	
 <Link to="/sin"> Sign in </Link>	  <Link to="/sup"> Sign up </Link>
 <br/>	
