@@ -63,8 +63,13 @@ function Main() {
 	<img src="/pics/beach-1236581_1280.jpg" className="pMainImg" />
 		
 </div>
+
+
 	
-	
+<div className="">
+
+
+</div>	
 	
 	
 <br/>	

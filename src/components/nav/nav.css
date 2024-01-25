@@ -34,7 +34,28 @@
 	    font-size: 18px;
 }
 
-.RightHdr1 div a:hover {
+.RightHdr1 div a:hover, .clmnhlinks a:hover {
 	color: var(--cl-clrmn) !important;
 }
 
+
+
+.clhdmn1 {
+display:flex;
+width:100%;
+justify-content:/*space-evenly*/  space-between;
+height:60px;
+align-items:center;
+}
+
+
+.clmnhlinks {
+display:flex;
+gap:10px;
+}
+
+
+.clmnhAbt {
+display:flex;
+gap:10px;
+}
