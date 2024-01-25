@@ -66,6 +66,178 @@ function Main() {
 
 
 
+
+<div className="kz1_ourTours">
+
+<div className="center">
+	<h1>
+		Our tours and Services
+	</h1>
+	<h2> Choose that suits you </h2>
+</div>
+
+
+<div className="kz1_ourToursFlexing"> 
+
+
+	<div> 
+	
+	
+			<div className="wz1">
+				<img src="/places/licensed-image.jpeg"/>
+				
+				<div className="pdng1"> 
+					  <div>
+						<h2 className="pcn1tr">Italy Milan</h2>
+					  </div>
+					 
+				 
+					  <div className="pdesc">
+						Perfect for fresh ideas or young startups, this package will help get the business off the ground
+					 </div>
+					 
+				 
+					 <div> 
+						 <ul className="list1">
+						 
+							 <li className="pdesc"> Coffe </li>
+							 <li className="pdesc"> Tea </li>
+							  <li className="pdesc"> Free Wifi / internet </li>
+						 </ul>
+					 
+					  </div>
+				 
+				</div>	 
+				 
+				 
+			</div>	
+			
+			
+		
+	</div>
+
+
+
+
+
+
+	<div> 
+	
+	
+			<div className="wz1">
+				<img src="/places/jerusalem.jpeg"/>
+				
+				<div className="pdng1"> 
+					  <div>
+						<h2 className="pcn1tr">Irael, Jerusalem</h2>
+					  </div>
+					 
+				 
+					  <div className="pdesc">
+						Perfect for fresh ideas or young startups, this package will help get the business off the ground
+					 </div>
+					 
+				 
+					 <div> 
+						 <ul className="list1">
+						 
+							 <li className="pdesc"> Coffe </li>
+							 <li className="pdesc"> Tea </li>
+							  <li className="pdesc"> Free Wifi / internet </li>
+						 </ul>
+					 
+					  </div>
+				 
+				</div>	 
+				 
+				 
+			</div>	
+			
+			
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+	<div> 
+	
+	
+			<div className="wz1">
+				<img src="/places/georgia.jpeg"/>
+				
+				<div className="pdng1"> 
+					  <div>
+						<h2 className="pcn1tr">Georgia, Tbilisi</h2>
+					  </div>
+					 
+				 
+					  <div className="pdesc">
+						Perfect for fresh ideas or young startups, this package will help get the business off the ground
+					 </div>
+					 
+				 
+					 <div> 
+						 <ul className="list1">
+						 
+							 <li className="pdesc"> Coffe </li>
+							 <li className="pdesc"> Tea </li>
+							  <li className="pdesc"> Free Wifi / internet </li>
+						 </ul>
+					 
+					  </div>
+				 
+				</div>	 
+				 
+				 
+			</div>	
+			
+			
+		
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
 	
 <Customers>
 
