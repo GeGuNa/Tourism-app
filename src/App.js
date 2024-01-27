@@ -75,6 +75,9 @@ function Main() {
 
 
 
+
+<div className="pcntest1"></div>
+
 <div className="kz1_ourTours">
 
 <div className="center">
@@ -383,6 +386,11 @@ function Main() {
 
 
 
+
+
+	<div className="pcntest1"></div>
+
+
 <div className="kz1_ourTours">
 
 	<div className="center">Photos</div>
@@ -433,12 +441,55 @@ function Main() {
 
 
 
+<div className="clContactToUS">
 
+	<div className="clContactToUSChildren">
+		<div>
+				<div> Contact us </div>
+			<h3>Want to ask or just have some questions? then ...</h3>
+			
+			<ul className="kzlist2">
+				<li>Don't hesitate to contact us by texting</li>
+				<li>Don't hesitate to call us</li>
+				<li>Please don't text us some nonsense</li>
+				<li>When we are capable we will answer you</li>
+				<li>Good luck !!!</li>
+			</ul>
+			
+		</div>
+		
+		<div>
+					<form>
+						<div> <input type="text" placeholder="Name"/> </div>
+						<div> <input type="number" placeholder="Number"/> </div>
+						<div> <input type="email" placeholder="Email"/> </div>
+						<div> 
+							<select> 
+								<option value="" disabled selected>Category</option>
+								<option value="">Support</option>
+								<option value="">Technical stuff</option>
+							</select> 
+						</div>
+						
+						<div>
+							<button className="btn3"> Submit </button>
+						</div>
+						
+					</form>
+		</div>
+		
+		
+	</div>
+
+
+
+</div>
 
 	
 	
-<Link to="/sin"> Sign in </Link>	  <Link to="/sup"> Sign up </Link>
-<br/>	
+
+
+
 	
 	
 <Footer/>	
@@ -449,6 +500,9 @@ function Main() {
 
 function  Customers({ children }) {
 	return (<>
+	
+	
+	<div className="pcntest1"></div>
 	
 	<div className="pcnt1">
 

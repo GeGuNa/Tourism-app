@@ -13,6 +13,14 @@ body {
   line-height: 19px;
 }
 
+h1,h2,h3,h4,h5,h6 {
+    color: #484a46;
+}
+
+.pcntest1 {
+    margin-top: 90px;
+}
+
 a {
 color: #000;
 text-decoration: none;
@@ -355,4 +363,89 @@ transform: scale(2);
 }
 
 
+.clContactToUS {
+    background-color: #153e52;
+    width:100%;
+    display:block;
+    margin-bottom:30px;
+    color:#fff;
+}
 
+
+.clContactToUSChildren {
+    width:60%;
+    display:flex;
+    margin:auto;
+	gap:20px;
+}
+
+.clContactToUSChildren h3 {
+color:#fff !important;
+}
+
+
+.clContactToUSChildren form {
+width:100%;
+margin:0;
+padding:10px;
+}
+
+
+.clContactToUSChildren form input {
+	width: 100%;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+    background: #365772;
+    color:#fff !important;
+    border: 0;
+}
+
+.clContactToUSChildren form select {
+	width: 100%;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+    background: #365772;
+    color:#5e82a0 !important;
+    border: 0;
+}
+
+.clContactToUSChildren > div {
+width:50%;
+flex-basis:50%;
+overflow:hidden;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+
+
+.kzlist2 {
+list-style-type: square;
+}
+
+.kzlist2 li {
+padding-bottom:10px;
+}
+
+
+.btn3 {
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    background: /*#feb445*/ var(--cgreen);
+    padding: 16px 18px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    width:100%;
+}
