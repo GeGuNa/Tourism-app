@@ -46,7 +46,7 @@ export function Navigation() {
 					<div><Link to="/"> Packages </Link></div>
 					<div><Link to="/"> Blog </Link></div>
 					<div><Link to="/"> About </Link></div>
-					<div><Link to="/"> Contact </Link></div>
+					<div><Link to="/Contact"> Contact </Link></div>
 				</div>
 		
 		</div>	

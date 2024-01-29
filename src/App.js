@@ -3,8 +3,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/nav/nav.js';
 import { Footer } from './components/footer/footer.js';
 import { PHotlist, PHot } from './components/TouristPhs.js';
-
-
+import { Contact } from './components/contact/contact.js';
 
 
 import "./css/App.css";
@@ -570,6 +569,7 @@ export default function App() {
 	<Route path="/" element={<Main />} />
 	<Route path="/sin" element={<Signin />} />
 	<Route path="/sup" element={<Signout />} />
+	<Route path="/Contact" element={<Contact />} />
 	<Route path="*" element={<Erqqq />} />
 </Routes>
 
