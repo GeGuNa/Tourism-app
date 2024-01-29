@@ -4,6 +4,7 @@ import { Navigation } from './components/nav/nav.js';
 import { Footer } from './components/footer/footer.js';
 import { PHotlist, PHot } from './components/TouristPhs.js';
 import { Contact } from './components/contact/contact.js';
+import { About } from './components/about/about.js';
 
 
 import "./css/App.css";
@@ -44,6 +45,11 @@ function Signout() {
 
 
 function Main() {
+	
+document.title = 'Main'	
+	
+	
+	
 	return (<> 
 
 <Navigation/>
@@ -563,6 +569,10 @@ function  Customers({ children }) {
 
 
 export default function App() {
+	
+//document.title = 'Main'	
+	
+	
   return (
   
 <Routes>
@@ -570,6 +580,12 @@ export default function App() {
 	<Route path="/sin" element={<Signin />} />
 	<Route path="/sup" element={<Signout />} />
 	<Route path="/Contact" element={<Contact />} />
+	<Route path="/about" element={<About />} />
+	
+	
+	
+	
+	
 	<Route path="*" element={<Erqqq />} />
 </Routes>
 

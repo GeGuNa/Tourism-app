@@ -45,7 +45,7 @@ export function Navigation() {
 					<div><Link to="/"> Tours </Link></div>
 					<div><Link to="/"> Packages </Link></div>
 					<div><Link to="/"> Blog </Link></div>
-					<div><Link to="/"> About </Link></div>
+					<div><Link to="/about"> About </Link></div>
 					<div><Link to="/Contact"> Contact </Link></div>
 				</div>
 		

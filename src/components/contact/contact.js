@@ -7,6 +7,9 @@ import "./contact.css"
 
 export function Contact() { 
 	
+	document.title = 'Contact us'
+	
+	
 	return (<>
 	<Navigation />
 	
