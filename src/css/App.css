@@ -421,8 +421,8 @@ padding:10px;
 width:50%;
 flex-basis:50%;
 overflow:hidden;
-margin-top:25px;
-margin-bottom:25px;
+margin-top:40px;
+margin-bottom:40px;
 }
 
 
@@ -448,4 +448,33 @@ padding-bottom:10px;
     text-transform: uppercase;
     border-radius: 4px;
     width:100%;
+}
+
+.clflwus {
+display:flex;
+gap:20px;
+}
+
+.clflwus i {
+font-size:25px;
+cursor:pointer;
+}
+
+
+.clflwus2 {
+	display:flex;
+	gap:20px;
+	margin-bottom:40px;
+}
+
+.clflwus2 i {
+	font-size:20px;
+	cursor:pointer;
+}
+
+
+
+.clflwus2 span {
+	font-size:20px;
+	color:#fff;
 }

@@ -445,18 +445,56 @@ function Main() {
 
 	<div className="clContactToUSChildren">
 		<div>
-				<div> Contact us </div>
-			<h3>Want to ask or just have some questions? then ...</h3>
+				<div style={{fontSize: "25px"}}> Contact us </div>
+				
+				
+				<h3>Want to ask or just have some questions? then ...</h3>
 			
-			<ul className="kzlist2">
-				<li>Don't hesitate to contact us by texting</li>
-				<li>Don't hesitate to call us</li>
-				<li>Please don't text us some nonsense</li>
-				<li>When we are capable we will answer you</li>
-				<li>Good luck !!!</li>
-			</ul>
+				<ul className="kzlist2">
+					<li>Don't hesitate to contact us by texting</li>
+					<li>Don't hesitate to call us</li>
+					<li>Please don't text us some nonsense</li>
+					<li>When we are capable we will answer you</li>
+					<li>Good luck !!!</li>
+				</ul>
+			
+			
+					<div>
+					
+					
+						<div className="clflwus2">
+								<div>	
+									<i className="fa-solid fa-location-dot"></i>
+									<span> Georgia, Tbilisi </span>  </div>
+								<div>
+								
+									<i className="fa-solid fa-phone"></i> 
+									<span> (+995 000 111 222) </span>
+									
+								
+								 </div>
+						</div>
+					
+					
+						<h2 style={{color:"#fff"}}>Follow us On Social Media</h2>
+						
+						
+						<div className="clflwus">
+							<i className="fa-brands fa-instagram"></i>
+							<i className="fa-brands fa-facebook"></i>
+							<i className="fa-brands fa-twitter"></i>
+							<i className="fa-brands fa-pinterest"></i>
+							<i className="fa-brands fa-tiktok"></i>
+							<i className="fa-brands fa-linkedin"></i>
+							<i className="fa-brands fa-behance"></i>
+						 </div>
+					</div>
+			
 			
 		</div>
+		
+		
+
 		
 		<div>
 					<form>
