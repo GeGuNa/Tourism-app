@@ -17,6 +17,39 @@ export function Contact() {
 	<div className="qz_wh1">
 	
 	
+	<div className="qz_wh4">
+	
+			<div> <h1> CONTACT WITH US </h1> </div>
+			<div> </div>
+	
+	</div>
+	
+	
+
+	
+	<div className="qz_wh5">
+	
+		<div> 
+			<h4> BOOKING </h4> 
+			<span>	<i class="fa-regular fa-envelope-open"></i> book@example.com </span>
+		</div>
+		
+		<div> 
+			<h4> GENERAL </h4> 
+			<span>	<i class="fa-regular fa-envelope-open"></i> info@example.com </span>
+		</div>
+		
+		
+		
+		<div> 
+			<h4> TECHNICAL </h4> 
+			<span>	<i class="fa-regular fa-envelope-open"></i> tech@example.com </span>
+		</div>
+		
+		
+	</div>
+		
+		
 	
 	
 		<div className="qz_wh2">
@@ -25,7 +58,6 @@ export function Contact() {
 			<div className="div1">
 			
 					<div>
-					<div> Contact us </div>
 					<h3>Want to ask or just have some questions? then ...</h3>
 					<ul className="kzlist2">
 					

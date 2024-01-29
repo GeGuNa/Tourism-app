@@ -39,3 +39,39 @@ margin-top:25px;
 .clflwus2 span {
 color: #000 !important;
 }
+
+
+
+.qz_wh4 {
+    width: 60%;
+    display: block;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+.qz_wh5 {
+    width: 60%;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    justify-content:center;
+    padding-bottom: 25px;
+}
+
+.qz_wh5 > div {
+width:33.3333%;
+overflow:hidden;
+text-align: center;
+}
+
+.qz_wh5 > span {
+    font-size: 20px;
+}
+
+.qz_wh5 > div h4 {
+    margin-bottom: 15px;
+}
+
