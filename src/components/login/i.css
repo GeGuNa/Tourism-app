@@ -1,0 +1,16 @@
+@media (min-width: 1000px) {
+
+	.Forms {
+		width:40% !important;
+	}
+
+}
+
+
+@media (min-width: 1px) and  (max-width: 999px){
+
+	.Forms {
+		width:100% !important;
+	}
+
+}

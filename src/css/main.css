@@ -27,7 +27,9 @@
 
 
 .forms5 {
+    display: flex;
     padding: 15px;
+    justify-content: center;
 }
 
 .ccl1_fr1m {
@@ -35,16 +37,25 @@ width:80%;
 display:block;
 }
 
+
+.ccl1_fr1m > div {
+margin-bottom:20px;
+}
+
 .input {
     width: 100%;
     display: block;
     outline: none;
-    padding: 12px 12px;
+    border: unset;
+    padding: 16px 12px;
     margin-bottom: 10px;
+    background-color: #f5f5f5;
 }
 
 
 .Button {
+    background: #9969c7;
+    color: #fff;
 	width: 30%;
     display: block;
     outline: none;
