@@ -7,9 +7,12 @@ import { Contact } from './components/contact/contact.js';
 import { About } from './components/about/about.js';
 
 
+import { Index_login } from './components/login/index.js';
+import { Index_registration } from './components/registration/index.js';
+
+
 import "./css/App.css";
-
-
+import "./css/main.css";
 
 
 function Erqqq() {
@@ -577,11 +580,12 @@ export default function App() {
   
 <Routes>
 	<Route path="/" element={<Main />} />
-	<Route path="/sin" element={<Signin />} />
-	<Route path="/sup" element={<Signout />} />
+	<Route path="/login" element={<Index_login />} />
+	<Route path="/register" element={<Index_registration />} />
 	<Route path="/Contact" element={<Contact />} />
 	<Route path="/about" element={<About />} />
-	
+
+
 	
 	
 	

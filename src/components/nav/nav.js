@@ -22,7 +22,8 @@ export function Navigation() {
 		 
 			<div style={{paddingRight: '10px'}}>  
 					<div className="clmnhlinks">
-						<Link to="/">My account</Link>
+						<Link to="/login">My account</Link>
+						<Link to="/register">Sign up</Link>
 						<Link to="/">Currency</Link>
 						<Link to="/">Language</Link>
 					</div>
