@@ -1,0 +1,54 @@
+.Forms {
+	width:50%;
+	margin:auto;
+	display:block;
+}
+
+
+.Forms2 {
+	background:#fff;
+	display:block;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+    border: 1px solid #ddd;
+}
+
+
+.forms3 {
+    background: linear-gradient(90deg, rgba(65, 105, 225, 1) 0%, rgba(153, 105, 199, 1) 60%); 
+}
+
+.forms4 {
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.forms5 {
+    padding: 15px;
+}
+
+.ccl1_fr1m {
+width:80%;
+display:block;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    outline: none;
+    padding: 12px 12px;
+    margin-bottom: 10px;
+}
+
+
+.Button {
+	width: 30%;
+    display: block;
+    outline: none;
+    border: 0;
+    padding: 12px 12px;
+    margin-bottom: 10px;
+}
