@@ -33,10 +33,10 @@ export function Footer() {
 		
 			
 		<div className="KZl1">
-			<a href="">About us</a>
-			<a href="">Contact us</a>
+			<Link to="/about">About us</Link>
+			<Link to="/Contact">Contact us</Link>
 			<a href="">Support</a>
-			<a href="">FAQ</a>
+			<Link to="/Faq">FAQ</Link>
 			<a href="">Terms & Conditions</a>
 		</div>
 		

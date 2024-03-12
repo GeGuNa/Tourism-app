@@ -7,6 +7,10 @@ import { Contact } from './components/contact/contact.js';
 import { About } from './components/about/about.js';
 
 
+import { Faq } from './components/faq/faq.js';
+
+
+
 import { Index_login } from './components/login/index.js';
 import { Index_registration } from './components/registration/index.js';
 
@@ -584,6 +588,7 @@ export default function App() {
 	<Route path="/register" element={<Index_registration />} />
 	<Route path="/Contact" element={<Contact />} />
 	<Route path="/about" element={<About />} />
+	<Route path="/Faq" element={<Faq />} />
 
 
 	
