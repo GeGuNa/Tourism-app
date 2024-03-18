@@ -478,3 +478,20 @@ cursor:pointer;
 	font-size:20px;
 	color:#fff;
 }
+
+
+
+@media (max-width:990px) {
+
+	.footerWlinks {
+	flex-direction: column;
+	    height: unset;
+	}
+	
+	.footerWlinks > div {
+		widtH:100%;
+		
+	}
+	
+}
+

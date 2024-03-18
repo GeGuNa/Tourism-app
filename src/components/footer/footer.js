@@ -35,7 +35,7 @@ export function Footer() {
 		<div className="KZl1">
 			<Link to="/about">About us</Link>
 			<Link to="/Contact">Contact us</Link>
-			<a href="">Support</a>
+			<Link to="/Support">Support</Link>
 			<Link to="/Faq">FAQ</Link>
 			<a href="">Terms & Conditions</a>
 		</div>

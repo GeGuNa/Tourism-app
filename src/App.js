@@ -5,8 +5,7 @@ import { Footer } from './components/footer/footer.js';
 import { PHotlist, PHot } from './components/TouristPhs.js';
 import { Contact } from './components/contact/contact.js';
 import { About } from './components/about/about.js';
-
-
+import { Teams } from './components/teams/teams.js';
 import { Faq } from './components/faq/faq.js';
 
 
@@ -589,6 +588,7 @@ export default function App() {
 	<Route path="/Contact" element={<Contact />} />
 	<Route path="/about" element={<About />} />
 	<Route path="/Faq" element={<Faq />} />
+	<Route path="/Teams" element={<Teams />} />
 
 
 	
